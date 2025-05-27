@@ -1,0 +1,65 @@
+/* MintPage.module.css */
+.title {
+    margin-bottom: 1.5rem;
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .textField {
+    margin-bottom: 1rem;
+  }
+  
+  .button {
+    font-family: 'Press Start 2P';
+    font-size: 12px;
+    text-transform: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid;
+  }
+  
+  .buttonPrimary {
+    border-color: #1976d2;
+  }
+  
+  .buttonPrimary:hover {
+    background-color: #1976d2;
+    color: #fff;
+  }
+  
+  .buttonSecondary {
+    border-color: #dc004e;
+  }
+  
+  .buttonSecondary:hover {
+    background-color: #dc004e;
+    color: #fff;
+  }
+  .container {
+    margin-top: 2rem;
+  }
+  
+  .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardMedia {
+    object-fit: cover;
+  }
+  
+  .cardContent {
+    padding: 1rem;
+  }
+  
+  .gridContainer {
+    gap: 1rem;
+  }
+  
+  .connectWalletGrid {
+    margin-top: 1rem;
+  }
